@@ -1,46 +1,31 @@
 {
-  "name": "dustjs-linkedin",
-  "version": "2.7.2",
+  "name": "dustjs-min",
+  "version": "3.0.0",
   "author": {
-    "name": "Aleksander Williams",
-    "url": "http://akdubya.github.com/dustjs"
+    "name": "Jonathan Boudreau",
+    "url": "https://github.com/AGhost-7"
   },
-  "homepage": "http://dustjs.com/",
-  "description": "Asynchronous templates for the browser and server (LinkedIn fork)",
+  "homepage": "https://github.com/AGhost-7/dustjs",
+  "description": "Asynchronous templates for the browser and server",
   "contributors": [
-    "Veena Basavaraj <vybs@users.noreply.github.com>",
-    "Tom Carchrae",
-    "Jimmy Chan <jchan@linkedin.com>",
-    "Steven Foote <sfoote@linkedin.com>",
-    "Prayrit Prash Jain <prjain@linkedin.com>",
-    "Seth Kinast <skinast@linkedin.com>",
-    "Jairo de Morais <jairodemorais@users.noreply.github.com>",
-    "Kate Odnous <kodnous@linkedin.com>",
-    "Richard Ragan <rragan@ebay.com>"
   ],
   "scripts": {
     "test": "grunt travis"
-  },
-  "bin": {
-    "dustc": "./bin/dustc"
   },
   "main": "index.js",
   "browser": "./lib/dust.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linkedin/dustjs.git"
+    "url": "https://github.com/AGhost-7/dustjs"
   },
   "keywords": [
     "templates",
     "views",
     "dust",
     "dustjs",
-    "dust.js",
-    "linkedin"
+    "dust.js"
   ],
-  "dependencies": {
-    "cli": "^1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ayepromise": "~1.1.1",
     "grunt": "~1.0.1",
